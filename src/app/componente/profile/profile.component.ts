@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-profile',
@@ -8,6 +10,7 @@ import { Component } from '@angular/core';
   styleUrl: './profile.component.css'
 })
 export class ProfileComponent {
+
   name = 'Maria Rosa';
   role = 'SuperAdmin';
   company = 'Gê mais Pê';
@@ -16,6 +19,4 @@ export class ProfileComponent {
   address = 'Rua Santa Luzia, 735 - Cinelândia, Rio de Janeiro';
   email = 'usuario@empresa.com';
 
-}
-
-
+};
